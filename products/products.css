@@ -1,8 +1,13 @@
 section {
   padding: 0 32px 32px;
+  display: flex;
+  justify-content: center;
+}
+.products-wrapper {
+  max-width: 1000px;
 }
 .products-img {
-  height: 200px;
+  height: 300px;
   width: 100%;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
@@ -13,7 +18,6 @@ section {
 .products-desc {
   margin-top: 8px;
   margin-bottom: 8px;
-  font-size: 14px;
 }
 .products {
   display: flex;
@@ -25,7 +29,7 @@ section {
   max-width: 33.33%;
   padding: 16px;
   border-radius: 8px;
-  background-color: #f0f8ff;
+  background-color: var(--clr-accent);
 }
 .product-title {
   font-size: 18px;
@@ -49,5 +53,4 @@ figcaption {
 }
 .product-desc {
   font-size: 14px;
-  line-height: 1.2;
 }

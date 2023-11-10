@@ -12,11 +12,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #242424;
+  background-color: var(--clr-accent);
 }
 .logo {
   padding: 16px 32px;
-  background-color: #f0f8ff;
+  background-color: var(--clr-accent);
   font-size: 18px;
 }
 nav {
@@ -30,7 +30,7 @@ nav {
 .nav-link {
   display: inline-block;
   padding: 8px 8px;
-  color: #fefefe;
+  color: #242424;
   text-decoration: none;
   transition: color ease-in-out 0.2s;
 }
@@ -38,12 +38,12 @@ nav {
   display: block;
   height: 2px;
   width: 0;
+  background-color: #000000;
   transition: width ease-in-out 0.2s;
 }
 .nav-item:hover .nav-link {
-  color: var(--clr-accent);
+  color: #000000;
 }
 .nav-item:hover .nav-link-underline {
   width: 100%;
-  background-color: var(--clr-accent);
 }
