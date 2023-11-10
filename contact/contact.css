@@ -1,0 +1,22 @@
+section {
+  padding: 16px 32px;
+}
+.contact-title {
+  font-size: 32px;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+.contact-detail p {
+  line-height: 1.2;
+}
+.contact-img {
+  height: 350px;
+  width: 60%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 32px;
+  background-color: #242424;
+}
